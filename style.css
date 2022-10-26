@@ -1,0 +1,21 @@
+body {
+	background: linear-gradient(to right, #00ff87, #60efff);
+	display: grid;
+	place-content: center;
+}
+
+
+@media (min-width: 768px) {
+	body {
+		height: 100%;
+	}
+	.col{
+		width: 45vw;
+	}
+}
+
+@media (max-width: 350px) {
+	body {
+		font-size: 4vmin;
+	}
+}
